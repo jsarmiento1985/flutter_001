@@ -16,7 +16,6 @@ class OurImage extends StatelessWidget {
     final photo = Container(
       width: widthImage,
       height: heightImage,
-      margin: const EdgeInsets.only(top: 250, left: 50, right: 10.0),
       decoration: BoxDecoration(
           image: DecorationImage(
         image: AssetImage(pathImage),
